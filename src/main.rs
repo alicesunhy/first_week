@@ -8,7 +8,7 @@ mod my_mod {
     use crate::spooling::outchar;
     pub fn one() {
         println!("'a'~'Z' 之间的所有字符");
-        outchar::print_char('a', 'Z');
+        outchar::print_char_rev('a', 'Z');
     }
 
     pub mod two_md {
